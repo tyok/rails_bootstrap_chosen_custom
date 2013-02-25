@@ -1,7 +1,28 @@
-.chzn-container .nano {
-  height: 240px;
-  .chzn-results {
-    margin-right: 0;
-    padding-right: 4px;
+.chzn-container-single {
+  font-size: 15px;
+
+  .chzn-single {
+    background-image: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+
+    div {
+      right: 20px;
+      b {
+        background: url("chosen-sprite-mod.png") -16px -75px no-repeat;
+      }
+    }
+  }
+
+  .nano {
+    height: 240px;
+    .chzn-results {
+      margin-right: 0;
+      padding-right: 4px;
+    }
   }
 }
