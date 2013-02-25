@@ -16,4 +16,9 @@
 
 $(function() {
     $(".countries").chosen()
+
+    $(".nano").siblings(".chzn-search").find("input").on("keyup", function() {
+        $(".nano").nanoScroller();
+    });
+    $(".nano").nanoScroller();
 });
